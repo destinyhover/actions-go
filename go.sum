@@ -1,0 +1,4 @@
+github.com/destinyhover/post05 v0.0.0-20250731143607-7311529c874a h1:U99E5xFHCRyK5TXjaB4O9hdLXvrDQEayYaQpmTqFO9Q=
+github.com/destinyhover/post05 v0.0.0-20250731143607-7311529c874a/go.mod h1:bI3x5cMvcgWwWudTJdkzBPoFHdXO54qHeW509iTLosk=
+github.com/lib/pq v1.10.9 h1:YXG7RB+JIjhP29X+OtkiDnYaXQwpS4JEWq7dtCCRUEw=
+github.com/lib/pq v1.10.9/go.mod h1:AlVN5x4E4T544tWzH6hKfbfQvm3HdbOxrmggDNAPY9o=
