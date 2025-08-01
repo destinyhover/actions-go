@@ -8,7 +8,11 @@ WORKDIR /app
 COPY usePost.go .
 
 # Сборка бинарника
-RUN go mod init app && go build -o app usePost.go
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN go build -o app usePost.go
+
 
 # Финальный контейнер
 FROM alpine:latest
