@@ -1,5 +1,5 @@
 # Стадия сборки
-FROM golang:1.21 AS builder
+FROM golang:1.22.2 AS builder
 
 # Установка рабочей директории внутри контейнера
 WORKDIR /app
